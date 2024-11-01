@@ -46,16 +46,16 @@ source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 3. Install the dependencies:
    ```bash
    pip install -r requirements.txt
-4.Make sure flask_sqlalchemy is Up-to-Date. Upgrade flask_sqlalchemy to the latest version compatible with Flask 2.x:
+4. Make sure flask_sqlalchemy is Up-to-Date. Upgrade flask_sqlalchemy to the latest version compatible with Flask 2.x:
  ```bash
      pip install --upgrade flask_sqlalchemy
  ```
-4. Run the application:
+5. Run the application:
    ```bash
    python3 app.py
    ```
-5. The API will be running at http://127.0.0.1:5000/
-6. Use **test-api.http** to test the REST API using the REST Client extension in Visual Studio Code.
+6. The API will be running at http://127.0.0.1:5000/
+7. Use **test-api.http** to test the REST API using the REST Client extension in Visual Studio Code.
 
 ## Deploying to Azure
 

@@ -31,14 +31,13 @@ Before you can run or deploy this app, you need to have the following installed:
 To run the Flask API on your local machine:
 
 1. Clone this repository:
-
    ```bash
    git clone https://github.com/bhupinder2414/Rest-API.git
-   
+   ```
 2. Navigate to the project directory:
    ```bash
    cd Rest-API
-
+   ```
 3. Set up a Virtual envirnoment
 ```bash
 python3 -m venv venv
@@ -47,10 +46,14 @@ source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 3. Install the dependencies:
    ```bash
    pip install -r requirements.txt
-   
+4.Make sure flask_sqlalchemy is Up-to-Date. Upgrade flask_sqlalchemy to the latest version compatible with Flask 2.x:
+ ```bash
+     pip install --upgrade flask_sqlalchemy
+ ```
 4. Run the application:
    ```bash
    python3 app.py
+   ```
 5. The API will be running at http://127.0.0.1:5000/
 6. Use **test-api.http** to test the REST API using the REST Client extension in Visual Studio Code.
 

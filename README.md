@@ -1,6 +1,6 @@
 # Student REST API 
 
-This is a RESTful API for managing student records, allowing CRUD operations for a Student entity.
+This is a RESTful API for managing student records, allowing CRUD operations (Create, Read, Update, Delete) for a Student entity.
 
 ## Features
 
